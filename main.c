@@ -1,2 +1,3 @@
-//Write your code in this file
+#include <stdio.h>
+#include <ctype.h>
 
