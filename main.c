@@ -59,9 +59,9 @@ for (int i = 0; i < ELEVER; i++)
 {
     /*Loopar igenom elevernas medelvärde
     och skriver ut namnet på elever som har lägre medelvärde än klassens snitt*/
-   if (medel[i] < snitt)
+   if (medel[i] < snitt && i != hogst)
    {
-    printf("%s\n" ,namn[i]);
+    printf("%s\n", namn[i]);
    }
 }
 return 0; 
